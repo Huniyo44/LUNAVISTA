@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1A0F22;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /* HEADER TABLE STYLE */
+        .header-table {
+            background-image: url('cover.jpg');
+            background-size: cover;
+            width: 100%;
+            height: 110px;
+            box-shadow: 2px 2px 2px 2px rgba(111, 47, 129, 0.211);
+        }
+
+        .header-table a {
+            font-family: Calibri;
+            color: white;
+            font-size: 13px;
+            text-decoration: none;
+        }
+
+        /* MUSIC SECTION */
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 80px;
+        }
+
+        .music-box {
+            text-align: center;
+        }
+
+        .music-box img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            box-shadow: 0 0 4pt 5pt #382347;
+        }
+
+        .music-box h3 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<table class="header-table">
+    <tr>
+        <th style="text-align:left;">
+            <img src="logo.png" width="130" height="85">
+        </th>
+
+        <th style="text-align:right; padding-right:20px;">
+
+            <a href="home.html">
+                <img src="home.png" width="10" height="10"> HOME
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <a href="cart.html">
+                <img src="headphones.png" width="10" height="10"> PLAYLIST
+            </a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <a href="contactus.html">
+                <img src="con.png" width="10" height="10"> CONTACT US
+            </a>
+
+        </th>
+    </tr>
+</table>
+
+
+<!-- MUSIC SECTION -->
+<div class="container">
+
+    <div class="music-box">
+        <a href="pl2.html">
+            <img src="JPOP.png">
+            <h3>J-MUSIC</h3>
+        </a>
+    </div>
+
+    <div class="music-box">
+        <a href="pl1.html">
+            <img src="ICON YEARNER FINAL BOSS.png">
+            <h3>YEARNER FINAL BOSS</h3>
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html> 

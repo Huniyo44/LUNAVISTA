@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+	<style>
+	 body {
+    background-image: url("coverwb.png");
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-attachment: fixed;
+	background-position: center
+
+    
+  }
+
+   h1 {
+ 
+  font-family: "Pinyon Script", Times, serif;
+
+   }
+
+
+   span {
+ 
+  font-family: "Pinyon Script", Times, serif;
+
+   }
+
+   .video-background video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; 
+  object-fit: cover; 
+  max-width: 80%;
+  max-height: 80%;
+  
+}
+
+.content {
+  position: relative; 
+  z-index: 1; 
+  color: white;
+  padding: 20px;
+}
+
+
+
+
+  </style>
+  
+</head>
+<body>
+
+    <div class="video-background">
+  <video autoplay muted loop playsinline poster="bg.jpg">
+    <source src="LUNA VISTA.mp4" type="video/mp4">
+
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+    <div class="login-container">
+        <div class="login-card">
+            <div class="brand">
+                <div class="logo-icon"> <img src = "logo.png" width="108" height="80" > </div>
+                <h1>Luna Vista<span> Resort</span></h1>
+                <p>Book For A Reservation</p>
+            </div>  
+
+            
+            <form action="home.html">
+    
+    <div class="form-row">
+
+    <div class="input-group">
+        <input type="text" id="FN" required placeholder=" ">
+        <label for="FN">First Name</label>
+    </div>
+
+    <div class="input-group">
+        <input type="text" id="LN" required placeholder=" ">
+        <label for="LN">Last Name</label>
+    </div>
+
+</div>
+
+
+<div class="form-row">
+
+    <div class="input-group">
+        <input type="text" id="gender" required placeholder=" ">
+        <label for="gender">Gender</label>
+    </div>
+
+    <div class="input-group">
+        <input type="text" id="CN" required placeholder=" ">
+        <label for="CN">Contact Number</label>
+    </div>
+
+</div>
+
+    <div class="input-group">
+        <input type="email" id="email" required placeholder=" ">
+        <label for="email">Email Address</label>
+    </div>
+    
+    <div class="input-group">
+        <input type="password" id="password" required placeholder=" ">
+        <label for="password">Password</label>
+    </div>
+
+    
+    
+    <button type="submit" class="login-btn">
+        <h4>Sign In</h4>
+    </button>
+    
+    <div class="footer-links">
+        <a href="home.html">Forgot Password?</a>
+        <div class="divider"></div>
+        <span>Don't have an account yet? <a href="home.html" class="signup">Sign up here</a></span>
+    </div>
+
+</form>
+        </div>
+    </div>
+    
+</body>
+</html>
